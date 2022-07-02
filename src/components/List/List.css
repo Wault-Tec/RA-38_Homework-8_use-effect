@@ -1,0 +1,24 @@
+.list ul {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.list li:not(:last-child):hover {
+  background-color: rgba(0, 255, 255, 0.3);
+  cursor: pointer;
+}
+
